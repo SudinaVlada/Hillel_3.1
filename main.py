@@ -7,7 +7,9 @@ elif do == '-':
     print(first_number - second_number)
 elif do == '*':
     print(first_number * second_number)
-elif do == '/' and second_number != 0:
+elif second_number == 0:
+    print("Ділення на нуль!")
+elif do == '/' :
     print(first_number / second_number)
 else:
     print("Невірно введені дані")
